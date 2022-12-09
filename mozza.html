@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="mozzacss.css"
+    rel="stylesheet">
+    <title>MooZZaBAR</title>
+</head>
+<body>
+
+    <header >
+        <nav class="navbar">
+                <logoNavbar class="navbar-logo">
+                    <img src="./picture/mozzasmall.png">
+                </logoNavbar>
+
+                <ul class="navbar-nav">
+                    <il class="navbar-nav__li"><a class="navbar-nav__li" href="#home">Home</a></il>
+                    <il class="navbar-nav__li"><a class="navbar-nav__li"href="#concepto">Concepto</a></il>
+                    <il class="navbar-nav__li"><a class="navbar-nav__li" href="#galeria">Galeria</a></il>
+                    <il class="navbar-nav__li"><a class="navbar-nav__li" href="#carta">Carta</a></il>
+                    <il class="navbar-nav__li"><a class="navbar-nav__li" href="#reserva">Reserva</a></il>
+                    <il class="navbar-nav__li"><a class="navbar-nav__li" href="#blog">Blog</a></il>
+                    <il class="navbar-nav__li"><a class="navbar-nav__li" href="#contacto">Contacto</a></il>
+                </ul>
+      </nav>
+    </header>
+
+    <main >
+        <!--main-container class="grid-container"-->
+
+            <article id="home" >
+                <div class="home-back__picture">
+                     <img class="fotoinicio"src="./picture/fondoinicio.png">                                  
+                <a href="#carta"><img  class="home-botom space"src="./picture/bigmozza.png">
+                </a> 
+                
+                </div>     
+
+                                   
+
+                
+            </article>
+
+            <article id="concepto" class="concepto">
+                  <div class="concepto_picture">
+                     <img class="concepto_picture" src="./picture/fondoconcepto.png">
+                    
+                </div>
+            </article>
+            
+            <article id="galeria" class="galeria">
+                        <img class="img" src="./picture/picture-one.png">
+                        <img class="img" src="./picture/picture-two.png">
+                        <img class="img" src="./picture/picture-three.png">
+                        <img class="img" src="./picture/picture-six.png">
+                        <img class="img" src="./picture/picture-five.png">
+                        <img class="img" src="./picture/picture-four.png">
+                        <img class="img" src="./picture/picture-seven.png">                    
+            </article>
+
+
+
+            <article id="carta" class="carta">
+                
+                    <h1 class="title">CARTA</h1>
+                
+                
+                <div class="cartaBotones">
+                    <a class="cartaBotonesDesayuno" href="#">Desayuno</a>
+                    <a class="cartaBotonesCarta" href="#">Carta</a>
+                    <a class="cartaBotonesCocktail" href="#">Cocktail</a>
+                </div>
+                <imag class="fondoCarta" src="./picture/carta.png" alt="image"></imag> 
+                <a class="carta-boton" href="#">VER LA CARTA DE DESAYUNO</a>              
+            </article>
+
+
+
+            <article id="reserva" class="reservas">
+                
+                  <h1 class="titleReser" >RESERVAS</h1>
+                
+                <div class="register_form">
+                    <form>
+                       <span>
+                            <label for="perso">
+                                <p class="parraFor">Personas</p>
+                                <input class="formMedio"id="perso" type="number" placeholder="2 Personas"  max="15">
+                                <label for="Hora">
+                                    <p class="parraFor">Hora</p>
+                                    <input class="formMedio"id="Hora"name="time"type="time"placeholder="Hora" required>
+
+                            </lable>
+                       </span>
+                       <span>
+                            
+                            </label>
+                      </span>
+
+                      <label for="Hora">
+                           <p class="parraFor">Tipo de mesa</p>
+                          <input  class="formCompleto"id="mesa"name="mesa"type="num"placeholder="Selecione tipo de mesa" required>
+                      </label>
+
+                        <button class="solici" type="button">Reserva</button>
+                        <p class="parraFor">Si no encuentra disponibilidad, apúntese en la lista de espera.</p>
+                        
+                            <button class="solici" type="solici">Lista de espera</button>
+                        
+                            <button class="solici"  type="solici">Solicitud</button>                       
+                    </form>
+                </div>                       
+                <img class="contact"src="./picture/contact.png">                          
+            </article>
+
+
+
+            <article id="blog" class="blog">
+                <h1 class="title">BLOG</h1>
+                <div class="muestra">
+                    <img class="blog-terraza"></img>
+                    <img class="blog-special"></img>
+                    <img class="blog-brunch"></img>
+                </div>                
+                <a href="#"class="carta-boton">VER TODAS LAS ENTRADAS</a>
+            </article>
+
+            
+
+            <article id="contacto" class="contacto">
+                <img class="contacto-logo"></img>
+
+                <div class="contacto-container">
+                    <h1 class="contacto-siguenos">SIGUENOS</h1>
+                    <a class="contacto-boton__face"href="https://es-es.facebook.com/">FACEBOOK</a>
+                    <a class="contacto-boton__inst"href="https://www.instagram.com/">INSTAGRAM</a>
+               </div>
+            </article>
+        </main-container>
+
+    </main>
+    <footer class="foot">
+        <div class="foot-enlace">
+            <h2>ENLACES DE INTERES</h2>
+            <p>Aviso Legal</p>
+            <p>Cookies</p>
+        </div>
+        <div class="foot-horario">
+            <h2>HORARIOS</h2>
+            <p>Lunes a Domingo</p>
+            <p>07:30 - 01:30</p>
+        </div>
+        <div class="foot-contacto">
+            <h2>CONTACTO</h2>
+            <p>C/ Conde Peñalever 64</p>
+            <p>28006 - Madrid</p>
+            <br>
+            <p>910 258 327</p>
+            <p>Awita-c@moZZaBar.es</p>
+        </div>
+        
+    </footer>
+    <div class="outfoot">
+    <p class="outfootP"> 2017. Todos los derechos reservados</p> 
+    <a class="outfootLogoF"></a>
+    <a class="outfootLogoI"></a>
+    </div>
+
+    
+</body>
+</html>

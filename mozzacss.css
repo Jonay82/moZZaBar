@@ -1,0 +1,574 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Fredoka,sans-serif,Tahoma;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+ 
+
+
+.navbar{ 
+    display: flex;  
+    justify-content: space-around;
+    flex-direction:row;
+    align-items:center ; 
+    width: 100%;
+    height: 110px ;  
+     background-color: #1F1F1F;;
+}
+
+
+.navbar-logo{
+    display: flex;
+    justify-content:flex-start; 
+    width:200px ;
+    height: 110px ;
+}
+
+.navbar-nav{   
+    display: flex;
+    justify-content:space-around;
+    gap: 50px;
+    text-decoration: none;
+    width:600px;
+   
+}
+
+.navbar-nav__li{
+    color: white;
+    list-style: none;
+    font-size: 18px;
+}
+
+.navbar-nav__li:active{
+    color: #8B6C3C;
+}
+
+.navbar-nav__li:hover{
+    text-decoration: underline #8B6C3C 5px;
+    color: white;
+}
+
+/***************************************************/
+
+
+.grid-container{
+    display: flex;  
+    flex-direction:column;
+}
+
+.fotoinicio{
+    height:750px;
+    width: 100%;
+}
+
+.home-back__picture{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    width: 100%; 
+    height:750px;
+   
+}
+.space{
+    height:auto;
+    width:auto;
+    
+}
+
+.home-botom{
+     position: absolute;
+    display:flex;
+    justify-content:center;
+    align-items: center;  
+    height:200px ;
+    width:200px ;
+
+    
+} 
+
+
+
+/*********************************************/
+.concepto{    
+    height:750px;
+    width:100%;
+}
+
+.concepto_picture{
+    height:750px;
+    width:100%;  
+}
+
+/*******************************************************/
+
+
+.galeria{
+    height: 1400px;
+    width: 100%;
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+    gap: 2px;
+    align-items: flex-start;
+    background-image: url("https://p0.pxfuel.com/preview/753/601/103/black-green-leaves-plants.jpg");
+    
+}
+
+.img{
+    max-width: 380px;  
+    margin-top: 50px;
+}
+
+/****************************************************/
+
+.carta{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    height: 1400px;
+    width:100%;   
+   
+}
+
+
+
+.title{      
+    height:15px ;
+    margin: 20px;
+    text-align: center;
+    position: relative; 
+    display:inline-block;
+    color:black;
+    margin-top: 10px;
+    background-color: aliceblue;
+   /* justify-items:center;*/
+    
+}
+.title:before  { 
+    display: block;
+    left: 0px;
+    content: "";
+    position: absolute;
+    width: 320px;
+    height: 3px;
+    background-color: #c48b35;
+    bottom:30%;
+    z-index:  -6;
+     
+}
+.title:after {
+    display: block;
+    right: 0px;
+    content: "";
+    position: absolute;
+    width: 320px;
+    height: 3px;
+    background-color: #c48b35;
+    bottom:30%;
+    z-index:  -6;
+}
+
+
+.cartaBotones{
+    display:flex;   
+}
+
+.cartaBotonesDesayuno{
+    color:  black;  
+    font-size: 18px;
+    padding: 20px;
+}
+
+.cartaBotonesDesayuno:active{
+    color: #8B6C3C;
+
+}
+.cartaBotonesDesayuno:hover{
+    text-decoration: underline  #8B6C3C 5px;
+    color:  black;
+}
+
+.cartaBotonesCarta{
+    color:  black;  
+    font-size: 18px;
+    padding: 20px;
+}
+
+.cartaBotonesCarta:active{
+    color: #8B6C3C;
+
+}
+.cartaBotonesCarta:hover{
+    text-decoration: underline #8B6C3C 5px;
+    color:  black;
+}
+
+.cartaBotonesCocktail{
+    color: black;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.cartaBotonesCocktail:active{
+    color: #8B6C3C;
+
+}
+.cartaBotonesCocktail:hover{
+    text-decoration: underline #8B6C3C 5px;
+    color: black;
+}  
+
+.fondoCarta{
+    height:1180px;
+    width:100%;
+    background-image:url("./picture/carta.png") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+}
+
+
+.carta-boton{
+    align-items: flex-end;
+    margin-bottom: 0px;
+    color: white;
+    background-color: #c48b35;
+    font-size: 15px;
+    padding: 13px  13px 13px 13px;   
+    border-radius: 6px;
+    
+}
+
+
+/**********************************************/
+
+.reservas{
+    
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;  
+    height:750px;
+    width:100%;
+    background-image: url("https://themain.cat/wp-content/uploads/2020/04/the-main-background-1.jpg"); 
+    background-repeat:no-repeat;
+    background-size:cover;
+    gap: 2px;
+}
+
+.titleReser{
+    height: 30px;       
+    margin: 10px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 600px;
+    color:rgb(255, 255, 255);
+    
+}
+.titleReser:before  { 
+    display: block;
+    left: 0px;
+    content: "";
+    position: absolute;
+    width: 320px;
+    height: 3px;
+    background-color: #f9f8f6;
+    bottom:30%;
+    z-index:  -6;
+     
+}
+.titleReser:after {
+    display: block;
+    right: 0px;
+    content: "";
+    position: absolute;
+    width: 320px;
+    height: 3px;
+    background-color: #f5f5f4;
+    bottom:30%;
+    z-index:  -6;
+}
+
+
+.register_form{
+    display:flex;
+    align-items: center;
+    justify-content:left;
+    margin-left: 250px;
+    height:400px;
+    width:660px;    
+    gap: 2px;
+}
+
+.formMedio{
+width: 300px;
+margin: 15px
+
+}
+.formCompleto{
+    width: 600px;
+    margin: 15px;
+}
+.formacepta{
+    margin: 15px;
+}
+.solici{
+    font-size: 15px;
+    width: 130px;
+    padding:6px ;
+    margin: 15px;
+    border: 0px;
+    
+    background-color: #f5f5f4;
+}
+
+.contact{
+    display: flex;
+    margin-left: auto;
+    margin-bottom: 100px;
+    margin-left:100px;
+    height:260px;
+    width:350px; 
+}
+
+.parraFor{
+    
+    font-size: 20px;
+    color: aliceblue;
+    
+}
+
+/***********************************************/
+.title{      
+    height: 15px;
+    margin:20px;
+    text-align: center;
+    display: inline-block;
+    position: relative; 
+    color:black;
+    margin-top: 5px;
+    justify-items:center;
+    
+}
+.title:before  { 
+    display: block;
+    left: 0px;
+    content: "";
+    position: absolute;
+    width: 320px;
+    height: 3px;
+    background-color:#c48b35;
+    bottom:30%;
+    z-index:  -8;
+     
+}
+.title:after {
+    display: block;
+    right: 0px;
+    content: "";
+    position: absolute;
+    width: 320px;
+    height: 3px;
+    background-color:#c48b35;
+    bottom:30%;
+    z-index:  -8;
+}
+
+
+.blog{
+height: 750px;
+width: 100%;
+display: flex; 
+flex-wrap:wrap; 
+flex-direction:column;
+justify-content: center; 
+gap: 20px;
+align-items:center;
+}
+
+.muestra{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.blog-terraza{   
+    width: 300px;
+    height: 400px;
+    background-position: auto;
+    background-size: cover;
+    background-image:url("./picture/terraza.png") ;
+    
+}
+
+.blog-special{  
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    background-image:url("./picture/coktail.png") ;
+}
+
+.blog-brunch{
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    background-image:url("./picture/brunch.png")
+}
+
+
+.carta-boton{
+    align-items: flex-end;
+    margin-bottom: -100px;
+    color: white;
+    background-color: #c48b35;
+    font-size: 15px;
+    padding: 13px  13px 13px 13px;   
+    border-radius: 6px;
+    
+}
+
+
+
+/***************************************************/
+
+.contacto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 920px;
+    width: 100%;
+
+}
+
+.contacto-logo{ 
+height: 640px;
+width: 100%;
+background-image: url("./picture/venCuandoQuieras.png");
+background-size: covers;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.contacto-container{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-content: center;
+     align-items: center;    
+     width: 650px;
+     height: 170px;  
+     gap:20px;
+}
+
+.contacto-siguenos{
+    
+    margin:0px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content:center;    
+    height: 85px;   
+    width:100% ;
+       
+}
+
+.contacto-siguenos:before  { 
+    display: block;
+    left: 0px;
+    margin-left: 130px;
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color:#000000;
+    bottom:50%;
+    z-index:  -2;
+     
+}
+.contacto-siguenos:after {
+    display: block;
+    right: 0px;
+    margin-right: 130px;
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color:#000000;
+    bottom:50%;
+    z-index:  -2;
+}
+
+
+.contacto-boton__face{
+    display: flex;
+    align-items: center;
+    justify-content:center; 
+    width:200px;
+    height: 45px;
+    background-color: #ffffff;
+   
+    border-color: black;
+    border-style: groove;
+}
+
+.contacto-boton__inst{
+    display: flex;
+    align-items: center;
+    justify-content:center; 
+    width:200px;
+    height: 45px;
+    background-color: #ffffff;
+   
+    border-color: black;
+    border-style: groove;
+}
+
+
+
+/*********************************************/
+.foot
+{
+height: 380px;
+width: 100%;
+display:flex;
+flex-direction:row;
+
+justify-content:space-evenly;
+background-color:rgb(205, 200, 200);
+}
+
+.foot-enlace{
+    margin-top: 60px;
+   
+
+}
+
+.foot-horario{
+    margin-top: 60px;
+
+}
+
+.foot-contacto{
+    margin-top: 60px;
+    
+}
+
+/*****************************/
+.outfoot{
+    background-color:rgb(205, 200, 200);
+}
